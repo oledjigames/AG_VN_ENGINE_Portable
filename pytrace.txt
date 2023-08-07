@@ -1,0 +1,454 @@
+-------------- Python-PSP started Mon Aug  7 14:49:04 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 4
+    
+                     ^
+IndentationError: expected an indented block
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:49:24 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:36: DeprecationWarning: integer argument expected, got float
+  ui_choice = psp2d.Image("engine/ui/choice.png")
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:54:14 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:8: Warning: 'with' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    with open('SaveGame\save.aves', 'w', encoding="utf-8") as configfile:
+            ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:54:43 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:8: Warning: 'with' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    with open('SaveGame\save.aves', 'w') as configfile:
+            ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:55:58 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:8: Warning: 'with' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    with open('savegame\save.aves', 'w') as configfile:
+            ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:57:23 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:8: Warning: 'as' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    open('savegame\save.aves', 'w') as configfile:
+                                     ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:57:59 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    configfile = open('savegame\save.aves', 'w'):
+                                                ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:58:50 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:8: Warning: 'with' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    with open('savegame/save.aves', 'w') as configfile:
+            ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 14:59:12 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:8: Warning: 'with' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 8
+    with open('savegame/save.aves', 'w') as configfile:
+            ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:01:23 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:22: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+engine/scripts/save_sys.py:9: Warning: 'with' will become a reserved keyword in Python 2.6
+Traceback (most recent call last):
+  File "script.py", line 55, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 9
+    with open('savegame/save.aves', 'w') as configfile:
+            ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:04:00 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+Traceback (most recent call last):
+  File "script.py", line 54, in <module>
+    execfile('engine/scripts/save_sys.py')
+  File "engine/scripts/save_sys.py", line 2
+    except:pass
+         ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:13:36 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:48: DeprecationWarning: integer argument expected, got float
+  def render_multi_line(text, x, y, fsize):
+Traceback (most recent call last):
+  File "script.py", line 76, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 38, in pause_ui
+    elif pause_button==(1):quick_save()
+  File "engine/scripts/save_sys.py", line 5, in quick_save
+    savefile.write("id_current="+id_current+";choice_var="+choice_var+";background_screen=")
+TypeError: cannot concatenate 'str' and 'int' objects
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:14:14 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:48: DeprecationWarning: integer argument expected, got float
+  def render_multi_line(text, x, y, fsize):
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:33:04 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 39, in pause_ui
+    elif pause_button==(2):quick_load()
+  File "engine/scripts/save_sys.py", line 8, in quick_load
+    execfile("savegame/savefile.aves")
+  File "savegame/savefile.aves", line 4
+    character=[]background_screen  = background[image_id]
+                                ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:33:50 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 39, in pause_ui
+    elif pause_button==(2):quick_load()
+  File "engine/scripts/save_sys.py", line 8, in quick_load
+    execfile("savegame/savefile.aves")
+  File "savegame/savefile.aves", line 5, in <module>
+    background_screen  = background[image_id]
+NameError: name 'image_id' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:35:26 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 39, in pause_ui
+    elif pause_button==(2):quick_load()
+  File "engine/scripts/save_sys.py", line 8, in quick_load
+    execfile("savegame/savefile.aves")
+  File "savegame/savefile.aves", line 5, in <module>
+    background_screen  = background[image_id]
+NameError: name 'image_id' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 15:36:44 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 39, in pause_ui
+    elif pause_button==(2):quick_load()
+  File "engine/scripts/save_sys.py", line 9, in quick_load
+    execfile("savegame/savefile.aves")
+  File "savegame/savefile.aves", line 4
+    character=[(<psp2d.Image object at 0x909e210>, 190)]
+                ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 21:40:39 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 39, in pause_ui
+    elif pause_button==(2):quick_load()
+  File "engine/scripts/save_sys.py", line 9, in quick_load
+    execfile("savegame/savefile.aves")
+  File "savegame/savefile.aves", line 5
+    character=[(<psp2d.Image object at 0x909e210>, 190)]
+                ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 22:17:31 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 38, in pause_ui
+    elif pause_button==(1):quick_save()
+  File "engine/scripts/save_sys.py", line 5, in quick_save
+    my_string = ','.join(character)
+TypeError: sequence item 0: expected string, tuple found
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 22:18:50 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 38, in pause_ui
+    elif pause_button==(1):quick_save()
+  File "engine/scripts/save_sys.py", line 5, in quick_save
+    my_string = ''.join(''.join(l) for l in my_list)
+NameError: global name 'my_list' is not defined
+--------------------------------------------------------------------------------
+-------------- Python-PSP started Mon Aug  7 22:19:13 2023
+
+Free memory: 1162240
+PyPSP running in: umd0:
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Search path: python.zip;ms0:/lib/python21.zip;ms0:/python/site-packages;ms0:/python
+
+Starting pspogg
+script.py:21: DeprecationWarning: integer argument expected, got float
+  psp2d.Timer(time)
+script.py:37: DeprecationWarning: integer argument expected, got float
+  ui_cross = psp2d.Image("engine/ui/ui_cross.png")
+script.py:48: DeprecationWarning: integer argument expected, got float
+  intro("LOADING: ENGINE LOGIC", 0.1)
+Traceback (most recent call last):
+  File "script.py", line 77, in <module>
+    pause_ui()
+  File "engine/scripts/ui.py", line 38, in pause_ui
+    elif pause_button==(1):quick_save()
+  File "engine/scripts/save_sys.py", line 5, in quick_save
+    my_string = ''.join(''.join(l) for l in character)
+  File "engine/scripts/save_sys.py", line 5, in <genexpr>
+    my_string = ''.join(''.join(l) for l in character)
+TypeError: sequence item 0: expected string, psp2d.Image found
+--------------------------------------------------------------------------------
