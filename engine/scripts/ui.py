@@ -5,6 +5,7 @@ def pause_ui():
 	x_now = -168
 	animation = True
 	work = True
+	save_icon = psp2d.Image("engine/ui/ui_save.png")
 	pause_text = ["Continue","Quick Save","Quick Load","Menu"]
 	pause_button = 0 #0 cont 1qs 2ql 3m
 	while work:
@@ -35,7 +36,11 @@ def pause_ui():
 			pad = psp2d.Controller()
 			if pad.cross and (not lastPad or time() - lastPad >= 0.5):
 				if pause_button==(0):work = False
-				elif pause_button==(1):quick_save()
+				elif pause_button==(1):
+					screen.blit(save_icon, dx=0, dy=0,blend=True)
+					screen.swap()
+					quick_save()
+					psp2d.Timer(0.3)
 				elif pause_button==(2):quick_load()
 				elif pause_button==(3):id_current=0;work = False
 				lastPad = time()
