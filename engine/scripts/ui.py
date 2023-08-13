@@ -41,7 +41,9 @@ def pause_ui():
 					screen.swap()
 					quick_save()
 					psp2d.Timer(0.3)
-				elif pause_button==(2):quick_load()
+				elif pause_button==(2):
+					quick_load()
+					work = False
 				elif pause_button==(3):id_current=0;work = False
 				lastPad = time()
 			elif pad.down and (not lastPad or time() - lastPad >= 0.5):pause_button+=1;lastPad = time()
