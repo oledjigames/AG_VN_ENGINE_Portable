@@ -39,7 +39,9 @@ def dialog(id, name, text):
 		render_multi_line(text, 4, 195, 15)
 		screen.blit(ui_cross, dx=449, dy=241, blend=True)
 		Do_once = False
+		debug_show()
 		screen.swap()
+		game_op()
 def choice(id, var_index, text1, text2):
 	global id_current, background_screen, ui_text_bord, character, Do_once, lastPad, choice_var
 	if id_current ==(id):
@@ -66,6 +68,7 @@ def choice(id, var_index, text1, text2):
 			elif pad.down and (not lastPad or time() - lastPad >= 0.35):select_choice+=1;lastPad = time()
 			elif pad.up and (not lastPad or time() - lastPad >= 0.35):select_choice-=1;lastPad = time()
 			Do_once = False
+			debug_show()
 			screen.swap()
 		choice_var[var_index]  = select_choice
 def choice_to_id(id, var_index, id1, id2):
@@ -77,8 +80,17 @@ def choice_to_id(id, var_index, id1, id2):
 			id_current=id2
 
 def back_dialog(id):
-	global id_current, background_screen
+	global id_current, background_screen, character, game_op_run
 	if id_current ==(id):
 		screen.blit(background_screen)
+		for a, b in character:
+			screen.blit(a, dx=b, blend=True)
 		screen.blit(ui_cross, dx=449, dy=241, blend=True)
+		debug_show()
 		screen.swap()
+		game_op()
+def go_to_plot(id, plot_name, to_id):
+	global id_current, main_plot
+	if id_current ==(id):
+		main_plot = "game/plot/"+plot_name+".py"
+		id_current=to_id
